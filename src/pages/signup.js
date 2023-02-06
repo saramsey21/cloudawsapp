@@ -23,10 +23,7 @@ function Signup() {
       localStorage.setItem("firstName", JSON.stringify(firstName));
       localStorage.setItem("lastName", JSON.stringify(lastName));
       localStorage.setItem("sarahEmail", JSON.stringify(email));
-      localStorage.setItem(
-        "sarahPassword",
-        JSON.stringify(password)
-      );
+      localStorage.setItem("sarahPassword", JSON.stringify(password));
       console.log("Saved in Local Storage");
 
       setLogin(!login);
